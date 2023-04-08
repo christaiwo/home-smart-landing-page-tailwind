@@ -17,7 +17,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </button>
-        <div role="menubar" class="hidden flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:static lg:shadow-none justify-between lg:w-full">
+        <div role="menubar" class="hidden z-40 flex-col gap-4 absolute right-0 left-0 top-16 bg-amber-400 shadow-xl text-center p-6 text-lg items-center lg:flex lg:flex-row lg:static lg:shadow-none justify-between lg:w-full">
           <a role="menuitem" class="py-1 px-6  dark:text-neutral-900 focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400  hover:text-neutral-500 transition-colors" href="/">Home</a>
           <a role="menuitem" class="py-1 px-6  dark:text-neutral-900 focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400  hover:text-neutral-500 transition-colors lg:mr-auto" href="/">Contact</a>
           <a role="menuitem" class="py-1 px-6  dark:text-neutral-900 focus:outline-none focus-visible:ring-4 ring-neutral-900 rounded-sm ring-offset-4 ring-offset-amber-400  hover:text-neutral-500 transition-colors" href="/">Login</a>
@@ -27,6 +27,16 @@
         </div>
       </div>
     </nav>
+    <header class="relative pt-16 md:pt-24 lg:pt-48">
+      <div class="absolute inset-0 bottom-8 md:bottom-24 xl:bottom-32 -z-10 bg-gradient-to-b from-amber-400 to-amber-500 ">
+        
+      </div>
+      <div class="container mx-auto grid grid-rows-1 place-items-end px-2 ">
+        <img src="./assets/couch.png" class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto" alt="couch">
+        <img src="./assets/app.svg" class="row-start-1 row-end-2 col-start-1 col-end-2 mx-auto w-40 sm:w-52 md:w-64 lg:w-72" alt="app">
+      </div>
+    </header>
+    
 
     <script type="module" src="/main.js"></script>
   </body>
